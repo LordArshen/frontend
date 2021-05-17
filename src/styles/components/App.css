@@ -1,0 +1,99 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.left-column{
+  width: 25vw;
+  margin-left: 5vw;
+  color: white;
+  padding: 10px;
+  background-color: #3f4144;
+}
+.title-banner{
+  background-image: linear-gradient(to right, rgb(182,34,40,1) ,rgb(60,2,12,1));
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  margin-left: -5vw;
+  text-transform: capitalize;
+}
+
+.title-header{
+  height: 3.5rem;
+  padding: 17px 20px;
+  margin-top: 5vh;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-right: 10vw;
+  
+}
+.About-title{
+    margin:0;
+  }
+  .About-item{
+    font-size: 1rem;
+    text-align: right;
+    margin-top: -4px;
+  }
+  .Header-title, .Academic-tile, .Skills-title, .Interest-title, .Languages-title {
+  width: 24vw;
+  font-size: 1.2rem;
+  margin: 25px 0;
+  background-image: linear-gradient(to right, rgb(182,34,40,1) ,rgb(60,2,12,1));
+  padding: 10px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  margin-left: -3vw;
+  text-transform: capitalize;
+}
+
+.avatar{
+  margin: 80px auto;  
+  background-color: white;
+  background-image: url('https://mdn.mozillademos.org/files/7693/catfront.png');
+  width: 20vw;
+  height: 20vw;
+  border-radius: 100%;
+}
+
+.right-column{
+  margin: 20px 30px;
+}
+
+.Experience-title, .Academic-title, .Profile-title{
+  text-transform: uppercase;
+  font-size: 1rem;
+  color:#3f4144;
+  border-bottom: 2px solid rgb(182,34,40,1);
+  margin: 20px;
+}
+
+.Profile-desc, .Experience-item, .Academic-item, .Profile-c{
+  color: #5a5a5a;
+  margin: 0 20px;
+}
+
+.title-secondary{
+  font-weight: 900;
+  margin: 20px;
+  color: #2c2c2c;
+  text-transform: uppercase;
+}
+
+a{
+  color: rgb(182,34,40,1);
+  margin: 0 20px;
+}
+
+.Header-job-title, .Header-phone, .Header-email, .Header-website, .Header-adress, .Skills-item, .Interest-item, .Languages-item{
+  color: white;
+  margin: 5px 20px;
+  text-align: center;
+}
+
